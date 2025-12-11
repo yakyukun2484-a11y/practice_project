@@ -7,7 +7,7 @@ public class MultiplicationTable {
 			for (int j = 1; j <= 9; j++) {
 				if (i * j < 10) {
 					System.out.print("  ");
-				}else {
+				} else {
 					System.out.print(" ");
 				}
 				System.out.print(i * j);

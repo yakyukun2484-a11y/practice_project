@@ -10,7 +10,7 @@ public class ArrayDisplay {
 		fruit[3] = "ぶどう";
 		fruit[4] = "すいか";
 		//String[] fruit = {"りんご","ばなな","みかん","ぶどう","すいか"};//別解
-		
+
 		for (int i = 0; i < fruit.length; i++) {
 			System.out.println(fruit[i]);
 		}
