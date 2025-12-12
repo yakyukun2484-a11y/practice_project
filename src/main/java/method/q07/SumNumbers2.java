@@ -10,8 +10,8 @@ public class SumNumbers2 {
 		System.out.println("加算結果：" + calculateSum(num1, num2));
 	}
 
-	public static double calculateSum(int a, double b) {
-		double sum = a + b;
+	public static int calculateSum(int a, double b) {
+		int sum = (int) (a + b);
 		return sum;
 	}
 
