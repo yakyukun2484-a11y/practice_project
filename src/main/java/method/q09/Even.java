@@ -10,7 +10,7 @@ public class Even {
 		System.out.println("整数を入力してください。");
 		int x = stdIn.nextInt();
 
-		if (checkEven(x) == true) {
+		if (checkEven(x)) {
 			System.out.println(x + "は偶数です。");
 		} else {
 			System.out.println(x + "は奇数です。");
@@ -19,13 +19,7 @@ public class Even {
 	}
 
 	public static boolean checkEven(int a) {
-		boolean check;
-		if (a % 2 == 0) {
-			check = true;
-		} else {
-			check = false;
-		}
-		return check;
+		return a % 2 == 0;
 	}
 
 }
